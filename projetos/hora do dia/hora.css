@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+section{
+    background-color: white;
+    width: 600px;
+    height: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 32px 0 rgba(0, 0, 0, 0.359);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+h1{
+    text-align: center;
+}

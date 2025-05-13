@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#semaforo{
+    width: 120px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.luz{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 10px 0;
+}
+
+.btn_container{
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.vermelho{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.amarelo{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+.verde{
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.reset{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+#res{
+    margin-top: 15px;
+}

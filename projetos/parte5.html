@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação do HTML</title>
+    <style>
+        #msg{
+            background-color: green;
+            color: white;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            line-height: 200px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="msg" onclick="clicar()" onmouseout="sair()" onmouseenter="Entrar()">
+        Interaja
+    </div>
+
+    
+
+
+    <script>
+        var msg = document.getElementById("msg")
+
+        function clicar(){
+            msg.innerHTML = "Clicou"
+            msg.style.background = "red"
+        }
+
+        function sair(){
+            msg.innerHTML = "Saiu"
+            msg.style.background = "green"
+        }
+
+        function Entrar(){
+            msg.innerHTML = "Entrou"
+            msg.style.background = "Yellow"
+        }
+    </script>
+    
+</body>
+</html>

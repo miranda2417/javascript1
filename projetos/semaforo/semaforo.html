@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semaforo</title>
+    <link rel="stylesheet" href="semaforo.css">
+</head>
+<body>
+    <h1>Simulador de semaforo</h1>
+    <div id="semaforo">
+        <div class="luz" id="red"></div>
+        <div class="luz" id="yellow"></div>
+        <div class="luz" id="green"></div>
+    </div>
+
+    <div class="btn_container">
+        <div class="vermelho" onclick="acender('red')">Vermelho</div>
+        <div class="amarelo" onclick="acender('yellow')">Amarelo</div>
+        <div class="verde" onclick="acender('green')">Verde</div>
+        <div class="reset" onclick="resetar()">Reset</div>
+    </div>
+
+    <div id="res">Escolha uma cor</div>
+
+    <audio id="click-sound" src="what-a-fuck-120320.mp3" preload="auto"></audio>
+    <audio id="click-sound1" src="soundamazing.mp3" preload="auto"></audio>
+    <audio id="click-sound2" src="soundohfuck.mp3" preload="auto"></audio>
+    <audio id="click-sound3" src="soundohyeah.mp3" preload="auto"></audio>
+
+
+    <script src="semaforo.js"></script>
+</body>
+</html>
